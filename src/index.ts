@@ -1,5 +1,8 @@
 const express = require('express')
 const app = express()
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const porta = process.env.PORT || 3000;
 const produtos = require('../src/produtos/produtos.json')
