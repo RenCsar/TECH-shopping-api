@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "��#\u0000 \u0000T\u0000E\u0000C\u0000H\u0000-\u0000s\u0000h\u0000o\u0000p\u0000p\u0000i\u0000n\u0000g\u0000-\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000#\u0000 \u0000T\u0000E\u0000C\u0000H\u0000-\u0000s\u0000h\u0000o\u0000p\u0000p\u0000i\u0000n\u0000g\u0000-\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000",
   "main": "index.ts",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/index.ts",
