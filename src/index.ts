@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 
-const porta = process.env.PORT || 3000
+const porta = process.env.PORT || 3000;
+const produtos = require('../src/produtos/produtos.json')
 
 app.use(
     express.urlencoded({
@@ -9,10 +10,8 @@ app.use(
     })
 )
 
-app.get('/', (req: any, res: any)=> {
-    res.json({
-        message: 'Primeira rota criada com sucesso'
-    })
+app.get('/produtos', (req: any, res: any)=> {
+    return res.json(produtos)
 })
 
 const server = app.listen(porta, ()=> console.log(`App ouvindo a porta ${porta}`))
