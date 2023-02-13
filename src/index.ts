@@ -6,7 +6,9 @@ dotenv.config()
 
 const porta = process.env.PORT || 3000;
 const produtos = require('../src/produtos/produtos.json')
+const cors = require("cors")
 
+app.use(cors())
 app.use(
     express.urlencoded({
         extended: true,
@@ -14,7 +16,7 @@ app.use(
 )
 
 app.get('/produtos', (req: any, res: any)=> {
-    return res.json(produtos)
+    return res.status(200).json(produtos)
 })
 
 const server = app.listen(porta, ()=> console.log(`App ouvindo a porta ${porta}`))
