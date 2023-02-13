@@ -15,7 +15,7 @@ app.use(
     })
 )
 
-app.get('/produtos', (req: any, res: any)=> {
+app.get('/produtos', (_: any, res: any)=> {
     return res.status(200).json(produtos)
 })
 

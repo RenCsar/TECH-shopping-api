@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.urlencoded({
     extended: true,
 }));
-app.get('/produtos', (req, res) => {
+app.get('/produtos', (_, res) => {
     return res.status(200).json(produtos);
 });
 const server = app.listen(porta, () => console.log(`App ouvindo a porta ${porta}`));
