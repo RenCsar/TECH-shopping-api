@@ -35,6 +35,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a id="utilizacao"></a>
 ### Como utilizar
 
+#### Rodar a API:
+
+- npm run dev
+
 ---
 
 ### Autor
