@@ -1,30 +1,19 @@
 
 <h1 align="center">
  <img align="center" width="150" height="150" src="https://i.imgur.com/ngHfRyV.png"><br>
- Tech Shopping
+ Tech Shopping - API
 </h1>
 
-<p align="center">Todos os seus gadgets favoritos em um só lugar.</p>
+<p align="center">A API da Tech Shopping.</p>
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
  <a href="#Tecnologias">Tecnologias utilizadas</a> •
+ <a href="#utilizacao">Como utilizar</a> •
  <a href="#autor">Autor</a>
 </p>
 
 ---
-
-<br>
-
-
-<h1 align="center">  
-  <p align="center">
-  <img width="800" height="400" src="public/site.gif"><br><br>
-  <img width="200" height="400" src="public/mobile.gif"><br><br>
-  <img width="800" height="400" src="public/toast-erro.gif">
-</p>
-
-</h1>
 
 <a id="Descrição"></a>
 ### Descrição
@@ -40,15 +29,11 @@ Sobre as tecnologias utilizadas: as rotas da aplicação foram feitas com o **Re
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- React JS
-- Typescript
-- Redux toolkit
-- Redux Thunk
-- Axios
-- Styled Components
-- Material UI
-- Toastify
-- React Router Dom
+- Node JS
+- Express
+
+<a id="utilizacao"></a>
+### Como utilizar
 
 ---
 
