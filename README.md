@@ -5,6 +5,7 @@
 </h1>
 
 <p align="center">A API da Tech Shopping.</p>
+<p align="center">Acesse o site da <a href="https://tech-shopping.vercel.app/">Tech Shopping</a>.</p>
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
