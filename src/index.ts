@@ -8,7 +8,7 @@ const porta = process.env.PORT || 3000;
 const produtos = require('../src/produtos/produtos.json')
 const cors = require("cors")
 
-app.use(cors())
+app.use(cors());
 app.use(
     express.urlencoded({
         extended: true,
